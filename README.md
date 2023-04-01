@@ -15,5 +15,4 @@
 
 ### 1.1. How install
 - pip install pandas
-      - or
 - conda install pandas
