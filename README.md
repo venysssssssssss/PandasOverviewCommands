@@ -39,3 +39,15 @@ Import Pandas: To use Pandas in your Python script, you first need to import it:
 - df.loc[0]        # select the row with the label '0'
 - df[df['column'] > 0]   # select rows where 'column' is greater than 0
 
+## 4. Data cleaning
+### Data Cleaning: You can clean your data by handling missing values, removing duplicates, renaming columns, etc. Here are some examples:
+- df.dropna()             # remove rows with missing values
+- df.drop_duplicates()    # remove duplicate rows
+- df.rename(columns={'old_name': 'new_name'})   # rename columns
+
+## Data manipulation
+### Data Manipulation: You can manipulate your data by adding, deleting, or modifying columns, grouping data, sorting data, etc. Here are some examples:
+- df['new_column'] = df['column1'] + df['column2']  # add a new column
+- del df['column']        # delete a column
+- df.groupby('column').mean()   # group data by 'column' and calculate the mean for each group
+- df.sort_values('column', ascending=False)   # sort data by 'column' in descending order
