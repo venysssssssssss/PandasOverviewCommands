@@ -34,5 +34,8 @@ df = pd.read_csv('data.csv')
 - df.describe()  # to display summary statistics for the DataFrame
 
 ## 3. Indexing and selection
-### Indexing and Selection: You can select data from your DataFrame using various methods, such as indexing by position, indexing by label, boolean indexing, etc. Here are some examples:
+- Indexing and Selection: You can select data from your DataFrame using various methods, such as indexing by position, indexing by label, boolean indexing, etc. Here are some examples:
+- df.iloc[0]       # select the first row of data
+- df.loc[0]        # select the row with the label '0'
+- df[df['column'] > 0]   # select rows where 'column' is greater than 0
 
