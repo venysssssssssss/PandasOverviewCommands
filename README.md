@@ -17,3 +17,4 @@
 Install Pandas: You can install Pandas using pip or conda in your command prompt or terminal:
 - pip install pandas
 - conda install pandas
+### 1.2 How import
