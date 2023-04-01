@@ -29,5 +29,7 @@ df = pd.read_csv('data.csv')
 - This will load the data from the data.csv file into a Pandas DataFrame called df.
 - Exploring Data: You can explore the data in your DataFrame using various methods and attributes. Some useful ones are:
 - df.head()      # to display the first few rows of data
-
+- df.tail()      # to display the last few rows of data
+- df.info()      # to display information about the DataFrame
+- df.describe()  # to display summary statistics for the DataFrame
 
