@@ -27,10 +27,7 @@ Import Pandas: To use Pandas in your Python script, you first need to import it:
 - Load Data: You can load data into a Pandas DataFrame using various methods, such as read_csv(), read_excel(), read_sql(), etc. Here's an example using read_csv():
 df = pd.read_csv('data.csv')
 - This will load the data from the data.csv file into a Pandas DataFrame called df.
-- Exploring Data: You can explore the data in your DataFrame using various methods and attributes. Some useful ones are: df.head()      # to display the first few rows of data
-df.tail()      # to display the last few rows of data
-df.info()      # to display information about the DataFrame
-df.describe()  # to display summary statistics for the DataFrame
-
+- Exploring Data: You can explore the data in your DataFrame using various methods and attributes. Some useful ones are:
+- df.head()      # to display the first few rows of data
 
 
