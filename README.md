@@ -45,7 +45,7 @@ Import Pandas: To use Pandas in your Python script, you first need to import it:
 - df.drop_duplicates()    # remove duplicate rows
 - df.rename(columns={'old_name': 'new_name'})   # rename columns
 
-## Data manipulation
+## 5. Data manipulation
 ### Data Manipulation: You can manipulate your data by adding, deleting, or modifying columns, grouping data, sorting data, etc. Here are some examples:
 - df['new_column'] = df['column1'] + df['column2']  # add a new column
 - del df['column']        # delete a column
