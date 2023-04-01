@@ -24,17 +24,17 @@ Import Pandas: To use Pandas in your Python script, you first need to import it:
 - The pd alias is commonly used to refer to Pandas.
 
 ## 2. Explorating data-methods-attributes
-- Load Data: You can load data into a Pandas DataFrame using various methods, such as read_csv(), read_excel(), read_sql(), etc. Here's an example using read_csv():
-df = pd.read_csv('data.csv')
+### Load Data: You can load data into a Pandas DataFrame using various methods, such as read_csv(), read_excel(), read_sql(), etc. Here's an example using read_csv():
+- df = pd.read_csv('data.csv')
 - This will load the data from the data.csv file into a Pandas DataFrame called df.
-- Exploring Data: You can explore the data in your DataFrame using various methods and attributes. Some useful ones are:
+### Exploring Data: You can explore the data in your DataFrame using various methods and attributes. Some useful ones are:
 - df.head()      # to display the first few rows of data
 - df.tail()      # to display the last few rows of data
 - df.info()      # to display information about the DataFrame
 - df.describe()  # to display summary statistics for the DataFrame
 
 ## 3. Indexing and selection
-- Indexing and Selection: You can select data from your DataFrame using various methods, such as indexing by position, indexing by label, boolean indexing, etc. Here are some examples:
+### Indexing and Selection: You can select data from your DataFrame using various methods, such as indexing by position, indexing by label, boolean indexing, etc. Here are some examples:
 - df.iloc[0]       # select the first row of data
 - df.loc[0]        # select the row with the label '0'
 - df[df['column'] > 0]   # select rows where 'column' is greater than 0
