@@ -33,3 +33,6 @@ df = pd.read_csv('data.csv')
 - df.info()      # to display information about the DataFrame
 - df.describe()  # to display summary statistics for the DataFrame
 
+## 3. Indexing and selection
+### Indexing and Selection: You can select data from your DataFrame using various methods, such as indexing by position, indexing by label, boolean indexing, etc. Here are some examples:
+
